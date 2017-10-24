@@ -14,18 +14,11 @@ namespace SuggestionBox.Models
 
         //Properties
         [Key]
-        public int RecordNum { get; set; }
+        public int ID { get; set; }
 
-        public string Topic
-        {
-            get { return this.topic; }
-            set { this.topic = value; }
-        }
+        public string Topic { get; set; }
 
-        public string Suggestion
-        {
-            get { return this.suggestion; }
-            set { this.suggestion = value; }
-        }
+        public string Comment { get; set; }
+
     }
 }
